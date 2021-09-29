@@ -1,0 +1,360 @@
+.main-container {
+  width: 100%;
+  height: auto;
+  grid-gap: 50px;
+  flex-flow: row wrap;
+  background: #e6edf2;
+}
+
+.footer {
+  height: 200px;
+  width: 100%;
+  background: #4472c4;
+}
+
+.appmoduleTitle {
+  width: 100%;
+  text-align: center;
+  margin-left: 15px;
+}
+
+.brgyClearanceInfo_container {
+  width: auto;
+  height: auto;
+  background: #fefeff;
+  border-radius: 3px;
+  box-shadow: 0px 1px 5px 1px gray;
+  padding: 10px;
+}
+
+.reasons_container {
+  padding: 5px;
+}
+
+.reasons_container h3 {
+  text-transform: uppercase;
+  margin-left: 18px;
+}
+
+.reasons_container ul {
+  margin-left: 20px;
+}
+
+.reasons_container li {
+  padding: 1px;
+  margin-left: 15px;
+}
+
+.requirements_container {
+  padding: 5px;
+}
+.requirements_container h3 {
+  text-transform: uppercase;
+  margin-left: 18px;
+}
+
+.requirements_container ul {
+  margin-left: 20px;
+}
+
+.requirements_container li {
+  padding: 1px;
+  margin-left: 15px;
+}
+
+.steps_container {
+  padding: 5px;
+}
+
+.steps_container h3 {
+  text-transform: uppercase;
+  margin-left: 18px;
+}
+
+.steps_container ul {
+  margin-left: 20px;
+}
+
+.steps_container li {
+  padding: 1px;
+  margin-left: 15px;
+}
+
+.finalNote_container {
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+.clearance_btn {
+  padding-left: 20px;
+}
+.inner_li li {
+  padding-left: 10px;
+  list-style: none;
+}
+
+.clearance_submit {
+  height: 40px;
+  width: 150px;
+  outline: none;
+  border: none;
+  font-size: 15px;
+  background: green;
+  color: #fefeff;
+  border-radius: 1px;
+  cursor: pointer;
+}
+
+.clearance_submit:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.brgyIDInfo_container {
+  width: auto;
+  height: auto;
+  background: #fefeff;
+  border-radius: 3px;
+  box-shadow: 0px 1px 5px 1px gray;
+  padding: 10px;
+}
+
+.certifies_you {
+  padding: 5px;
+}
+
+.certifies_you h3 {
+  text-transform: uppercase;
+  margin-left: 18px;
+}
+
+.use_it {
+  margin-left: 5px;
+  padding-bottom: 5px;
+  padding-right: 20px;
+}
+.use_it h3 {
+  text-transform: uppercase;
+  margin-left: 18px;
+}
+
+.id_btn {
+  padding-left: 20px;
+}
+
+.id_submit {
+  height: 40px;
+  width: 150px;
+  outline: none;
+  border: none;
+  font-size: 15px;
+  background: green;
+  color: #fefeff;
+  border-radius: 5px;
+}
+
+.certifies_you ul {
+  padding: 5px;
+  margin-left: 15px;
+}
+.use_it ul {
+  padding: 4px;
+  margin-left: 16px;
+}
+
+.certifies_you li,
+.use_it li {
+  padding: 1px;
+}
+
+.id_steps {
+  padding-bottom: 5px;
+  padding-right: 20px;
+}
+
+.id_steps h3 {
+  text-transform: uppercase;
+  margin-left: 18px;
+}
+
+.id_steps ul {
+  padding: 4px;
+  margin-left: 20px;
+}
+
+.brgyBusPermitInfo_container {
+  width: auto;
+  height: auto;
+  background: #fefeff;
+  border-radius: 3px;
+  box-shadow: 0px 1px 5px 1px gray;
+  padding: 10px;
+}
+
+.buspermit_title {
+  padding: 5px;
+}
+
+.buspermit_title p {
+  margin-left: 15px;
+  font-size: 16px;
+}
+
+.buspermit_whereToApply {
+  padding: 5px;
+}
+.buspermit_whereToApply h3 {
+  margin-left: 15px;
+  text-transform: uppercase;
+}
+
+.buspermit_whereToApply p {
+  font-size: 16px;
+}
+
+.buspermit_requirements {
+  padding: 5px;
+  margin-left: 15px;
+}
+
+.buspermit_requirements li {
+  padding: 3px;
+  margin-left: 15px;
+  font-size: 16px;
+}
+
+.buspermit_steps {
+  padding: 5px;
+  margin-left: 15px;
+}
+
+.buspermit_steps h4 {
+  margin: 5px;
+  font-size: 16px;
+}
+
+.buspermit_steps p {
+  font-size: 16px;
+}
+
+.buspermit_tips,
+.buspermit_renew {
+  padding: 5px;
+  margin-left: 15px;
+}
+
+.buspermit_tips h3,
+.buspermit_renew h3,
+.buspermit_steps h3,
+.buspermit_requirements h3 {
+  text-transform: uppercase;
+}
+
+.buspermit_renew ul {
+  margin-left: 15px;
+}
+
+.main-container p {
+  font-size: 16px;
+  margin-left: 15px;
+}
+
+.main-container li {
+  padding: 3px;
+  margin-left: 15px;
+  font-size: 16px;
+}
+
+.main-container h4 {
+  padding: 5px;
+}
+
+.brgyClearanceInfo_container h1,
+.brgyBusPermitInfo_container h1,
+.brgyIDInfo_container h1 {
+  font-size: 45px;
+  letter-spacing: 2px;
+}
+
+.buspermit_btn {
+  padding-left: 20px;
+}
+
+.main-container button {
+  height: 40px;
+  width: 150px;
+  outline: none;
+  border: none;
+  font-size: 15px;
+  background: green;
+  color: #fefeff;
+  border-radius: 2px;
+}
+
+.main-container button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.clearance_title {
+  padding-left: 10px;
+}
+
+.clearance_title h1,
+.id_title h1,
+.buspermit_title h1,
+.indigency_title h1 {
+  text-decoration: underline;
+  text-transform: uppercase;
+  margin-left: 15px;
+  font-size: 2rem;
+  color: #3f3697;
+}
+
+.brgyIndigencyInfo_container {
+  width: auto;
+  height: auto;
+  background: #fefeff;
+  border-radius: 3px;
+  box-shadow: 0px 1px 5px 1px gray;
+  padding: 10px;
+}
+
+.indigency_title p {
+  margin-left: 20px;
+}
+
+.indigency_requirements h3 {
+  padding: 5px;
+  margin-left: 15px;
+  text-transform: uppercase;
+}
+
+.indigency_requirements li {
+  margin-left: 40px;
+}
+
+.indigency_steps h3 {
+  margin-left: 20px;
+  text-transform: uppercase;
+}
+
+.indigency_steps h4 {
+  padding: 5px;
+  margin-left: 15px;
+}
+
+.indigency_btn {
+  padding: 20px;
+}
+
+.indigency_submit {
+  height: 40px;
+  width: 150px;
+  outline: none;
+  border: none;
+  font-size: 15px;
+  background: green;
+  color: #fefeff;
+  border-radius: 2px;
+}

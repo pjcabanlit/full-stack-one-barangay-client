@@ -1,0 +1,97 @@
+.AddBrgyMembers_container {
+  width: 100%;
+  background: #fff;
+  padding: 30px;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.125);
+}
+
+.AddBrgyMembers_container form .AddBrgyMembers_Inhabitant {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px 2em;
+}
+
+.AddBrgyMembers_container
+  form
+  .AddBrgyMembers_Inhabitant
+  .AddBrgyMembers_form_group
+  .form-control,
+.AddBrgyMembers_container
+  form
+  .AddBrgyMembers_Inhabitant
+  .AddBrgyMembers_form_group
+  .textarea {
+  width: 100%;
+  outline: none;
+  border: 1px solid #d5dbd9;
+  font-size: 14px;
+  padding: 8px 10px;
+}
+
+.AddBrgyMembers_container
+  form
+  .AddBrgyMembers_Inhabitant
+  .AddBrgyMembers_form_group
+  .textarea {
+  resize: none;
+  height: 125px;
+}
+
+.AddBrgyMembers_container
+  form
+  .AddBrgyMembers_Inhabitant
+  .AddBrgyMembers_form_group
+  .custom_select {
+  position: relative;
+  width: 100%;
+  height: 37px;
+}
+
+.AddBrgyMembers_container
+  form
+  .AddBrgyMembers_Inhabitant
+  .AddBrgyMembers_form_group
+  .custom_select
+  select {
+  -webkit-appearance: none;
+  appearance: none;
+  border: 1px solid #d5dbd9;
+  width: 100%;
+  height: 100%;
+  padding: 8px 10px;
+  border-radius: 3px;
+  outline: none;
+}
+
+.AddBrgyMembers_container .AddBrgyMembers_form_group .btn {
+  width: 15%;
+  padding: 8px 10px;
+  font-size: 15px;
+  border: 0;
+  background: #0061a8;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 3px;
+  outline: none;
+  margin-top: 10px;
+}
+
+.AddBrgyMembers_container
+  form
+  .AddBrgyMembers_upperContainer
+  .AddBrgyMembers_form_group
+  .form-control {
+  width: 100%;
+  outline: none;
+  border: 1px solid #d5dbd9;
+  font-size: 14px;
+  padding: 8px 10px;
+}
+
+.AddBrgyMembers_Inhabitant {
+  margin-top: 20px;
+}
+
+.AddBrgyMembers_form_group {
+  margin-top: 15px;
+}

@@ -1,0 +1,194 @@
+main {
+  background: #f3f4f6;
+  grid-area: main;
+  overflow-y: auto;
+}
+
+.adminMain_container {
+  padding: 20px 35px;
+}
+
+.adminMain_title {
+  display: flex;
+  align-items: center;
+}
+
+.adminMain_title > img {
+  max-height: 100px;
+  object-fit: contain;
+  margin-right: 20px;
+}
+
+.adminMain_greeting > h1 {
+  font-size: 24px;
+  color: #2e4a56;
+  margin-bottom: 5px;
+}
+
+.adminMain_greeting > p {
+  font-size: 14px;
+  font-weight: 700;
+  color: #a5aaad;
+}
+
+.adminMain_cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.adminCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100px;
+  padding: 20px;
+  border-radius: 3px;
+  background: #ffffff;
+  box-shadow: 5px 5px 13px #ededed, -5px -5px 13px #ffffff;
+}
+
+.adminMain_title .adminCard {
+  margin-left: 19rem;
+}
+
+.adminCard_inner {
+  align-items: center;
+  justify-content: center;
+}
+
+.adminCard_inner p {
+  float: left;
+}
+.adminCard_inner span {
+  float: right;
+}
+
+.adminCard_inner > span {
+  font-size: 25px;
+}
+
+.adminCharts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.adminCharts_lowerCharts {
+  display: flex;
+}
+
+.adminCharts_chart {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+  margin-top: 50px;
+}
+.chart_2 {
+  margin-left: 6rem;
+}
+
+.adminCharts_left {
+  padding: 25px;
+  border-radius: 5px;
+  background: #ffffff;
+  box-shadow: 5px 5px 13px #ededed, -5px -5px 13px #ffffff;
+}
+
+.adminCharts_left_title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.adminCharts_left_title > div > h1 {
+  font-size: 24px;
+  color: #2e4a66;
+  margin-bottom: 5px;
+}
+
+.adminCharts_left_title > div > p {
+  font-size: 14px;
+  font-weight: 700;
+  color: #a5aaad;
+}
+
+.adminCharts_left_title > i {
+  color: #ffffff;
+  font-size: 20px;
+  background: #ffc100;
+  border-radius: 200px 0px 200px 200px;
+  -moz-border-radius: 200px 0px 200px 200px;
+  -webkit-border-radius: 200px 0px 200px 200px;
+  border: 0px solid #000000;
+  padding: 15px;
+}
+
+.adminCharts_right {
+  padding: 25px;
+  border-radius: 5px;
+  background: #ffffff;
+  box-shadow: 5px 5px 13px #ededed, -5px -5px 13px #ffffff;
+}
+
+.adminCharts_right_title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.adminCharts_right_title > div > h1 {
+  font-size: 24px;
+  color: #2e4a66;
+  margin-bottom: 5px;
+}
+
+.adminCharts_right_title > div > p {
+  font-size: 14px;
+  font-weight: 700;
+  color: #a5aaad;
+}
+
+.adminCharts_right_title > i {
+  color: #ffffff;
+  font-size: 20px;
+  background: #39447a;
+  border-radius: 200px 0px 200px 200px;
+  border: 0px solid #000000;
+  padding: 15px;
+}
+
+.adminCharts_right_cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.card1,
+.card2,
+.card3,
+.card4,
+.card5 {
+  background: #d1ecf1;
+  color: #35a4ba;
+  text-align: center;
+  padding: 25px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+@media only screen and (max-width: 855px) {
+  .adminMain_cards {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin-bottom: 0;
+  }
+
+  .adminCharts {
+    grid-template-columns: 1fr;
+    margin-top: 30px;
+  }
+}

@@ -1,0 +1,21 @@
+.Announcement_main {
+  background: #e6edf2;
+}
+
+.announcements_Container {
+  width: 100%;
+  height: auto;
+  background: #e9e7e7;
+  margin: 0;
+}
+
+.announcement_title {
+  justify-content: center;
+  align-items: center;
+}
+
+.announcement_contents {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}

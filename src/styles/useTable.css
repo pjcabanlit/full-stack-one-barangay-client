@@ -1,0 +1,22 @@
+thead th {
+  font-weight: 600;
+  color: main;
+  background-color: gray;
+}
+
+tbody td {
+  font-weight: 300;
+  border: 1px solid black;
+}
+
+tbody tr:hover {
+  background-color: #fffbf2;
+  cursor: pointer;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f29d;
+}
+
+th {
+  color: white;
+}

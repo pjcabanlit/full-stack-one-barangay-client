@@ -1,0 +1,54 @@
+.ReservationModule_main {
+  background: #e6edf2;
+}
+
+.ReservationModule_title {
+  text-align: center;
+}
+
+.ReservationModule_title h1 {
+  text-transform: uppercase;
+  color: #01538d;
+  letter-spacing: 1px;
+  font-size: 2rem;
+}
+
+.ReservationModule_title p {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.ReservationModule_container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: #fefeff;
+}
+
+.req_res_button {
+  width: 25%;
+  padding: 8px 10px;
+  font-size: 15px;
+  border: 0;
+  background: #0061a8;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 3px;
+  outline: none;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.req_res_button:hover {
+  background: #05426e;
+}
+
+.ReservationModule_title ul li {
+  font-size: 18px;
+  list-style-type: none;
+}
+
+@media screen and (max-width: 957px) {
+  .ReservationModule_container {
+    margin: 10px 4rem 10px 4rem;
+  }
+}

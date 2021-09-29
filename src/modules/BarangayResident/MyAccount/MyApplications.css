@@ -1,0 +1,19 @@
+.ProofOfPayment_container {
+  background: #fff;
+  width: 100%;
+  height: 60vh;
+  padding: 20px;
+}
+
+.ProofOfPayment_table {
+  align-items: center;
+  justify-content: center;
+}
+
+.MyApplications_title h1 {
+  text-transform: uppercase;
+}
+
+.MyApplicationFormatter {
+  background: #e9e7e2;
+}

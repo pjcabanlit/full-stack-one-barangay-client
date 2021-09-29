@@ -1,0 +1,234 @@
+* {
+}
+
+.home_chairman_message_container {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+  height: auto;
+  background: #e6edf2;
+}
+
+.chairman_pic img {
+  padding: 100px;
+}
+
+.chairman_message {
+  padding-top: 100px;
+  padding-right: 100px;
+  text-align: justify;
+}
+
+.chairman_message p {
+  font-size: 20px;
+  color: black;
+}
+
+.chairman_message h1 {
+  text-align: center;
+  font-size: 2rem;
+  letter-spacing: 5px;
+}
+
+.message_bg {
+  height: 500px;
+  transform: translateX(-50%);
+  opacity: 0.1;
+  z-index: +5;
+  position: absolute;
+}
+
+.chairman_message_bg {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.chairman_container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: row nowrap;
+  padding: 20px;
+  justify-content: center;
+}
+
+.about_us {
+  background-color: #e6edf2;
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+}
+
+.about_us .content {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+}
+
+.about_us .content .content_img {
+  width: 50%;
+  height: 100%;
+}
+
+.about_us .content .content_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about_us .content .content_description {
+  width: 50%;
+  height: 100%;
+  padding-left: 2rem;
+  text-align: justify;
+}
+
+.about_us .content .content_description .title {
+  margin-top: 0;
+}
+
+.vision_mision {
+  background: #e6edf2;
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+  text-align: justify;
+}
+
+.vision_mision .mission_container .mission_title {
+  width: 50%;
+  height: 100%;
+}
+
+.elected_officials_container {
+  background: #e6edf2;
+  padding-bottom: 30px;
+}
+.officials_container {
+  margin-right: 4rem;
+  margin-left: 4rem;
+}
+
+.elected_officials_title {
+  font-size: 35px;
+  font-weight: 500;
+  color: #0d0d0d;
+  margin-bottom: 5px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.visitUs_container {
+  background: #e6edf2;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.location_container iframe {
+  height: 350px;
+  width: 600px;
+  margin: 20px;
+  margin-left: 60px;
+}
+
+.visitUs_container .visitUs_title h1 {
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 1px;
+}
+
+.visitUs_container .visitUs_addressContainer h2 {
+  padding: 15px;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 1546px) {
+  .visitUs_container {
+    display: block;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1061px) {
+  .home_chairman_message_container {
+    display: block;
+  }
+  .chairman_pic img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 20px;
+  }
+  .message_bg {
+    left: 50%;
+    height: 50%;
+  }
+  .chairman_message {
+    padding: 50px;
+  }
+
+  .chairman_message p {
+    font-size: 18px;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 771px) {
+  .location_container iframe {
+    height: 300px;
+    width: 400px;
+    margin: 20px;
+  }
+}
+
+@media screen and (max-width: 948px) {
+  .mission_container,
+  .vision_container {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .vision_mision_container {
+    display: block;
+  }
+  .message_bg {
+    height: 30%;
+  }
+  .chairman_pic img {
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .welcomeUser_container {
+    width: 96%;
+  }
+  .welcomeUser_container .UserCard_body {
+    padding: 10px 20px;
+  }
+
+  .welcomeUser_container .UserCard_footer .col {
+    padding: 0 10px;
+  }
+
+  .welcomeUser_container .UserCard_footer .count {
+    display: block;
+    margin-bottom: 5px;
+  }
+}
+
+@media screen and (max-width: 471px) {
+  .location_container iframe {
+    height: 300px;
+    width: 250px;
+    margin: 10px;
+  }
+}

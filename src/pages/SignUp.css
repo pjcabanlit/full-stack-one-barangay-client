@@ -1,0 +1,157 @@
+.signup_div {
+  width: 100%;
+  height: auto;
+  background: #e9e7e7;
+}
+.topnav_container {
+  background-image: linear-gradient(to bottom right, #0061a8, #3f3697);
+  height: 60px;
+  width: 100%;
+  top: 0;
+  position: sticky;
+  display: flex;
+  z-index: 999;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-logo-1,
+.main-logo-2 {
+  height: 50px;
+}
+
+.main-logo-2 {
+  float: right;
+}
+.login_title_address {
+  color: #fff;
+}
+
+.login_header_title {
+  height: 50px;
+  text-align: center;
+}
+
+.signUp_title {
+  color: blanchedalmond;
+  text-transform: uppercase;
+}
+
+.registration_container {
+  padding: 30px;
+  margin-right: 20rem;
+  margin-left: 20rem;
+}
+.registration_container p {
+  font-style: italic;
+}
+
+.signUp_btn {
+  padding: 20px;
+}
+
+.signUp_btn button {
+  color: #fff;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  background: green;
+  height: 3rem;
+  width: 50%;
+  cursor: pointer;
+}
+.signUp_btn button:hover {
+  background: limegreen;
+}
+
+.signUp_footer_left {
+  margin-right: 1.25em;
+  margin-bottom: 2em;
+}
+
+.signUp_footer_left img {
+  height: 100px;
+}
+
+.signUp_footer_bottom {
+  color: #fbe0c4;
+  padding-top: 50px;
+  margin-left: 30rem;
+}
+
+.signUp_footer_bottom p {
+  color: #fbe0c4;
+}
+.error_password {
+  color: red;
+  padding: 5px;
+}
+
+.alert_backBtn {
+  padding: 10px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.alert_backBtn:hover {
+  box-shadow: 0px 1px 2px 1px gray;
+}
+
+.alert_noBtn {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.alert_yesBtn {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: white;
+  background-color: green;
+}
+
+.alert_noBtn:hover,
+.alert_yesBtn:hover {
+  box-shadow: 0px 1px 2px 1px gray;
+}
+
+.required_symbol {
+  color: red;
+}
+
+.SignUp_title,
+.PersonalInfo_title,
+.AccountInfo_title {
+  color: #0061a8;
+}
+
+.system_title {
+  color: #e9e7e7;
+}
+
+.forms h1 {
+  text-transform: uppercase;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  color: #0061a8;
+}
+
+.wrapper .titles {
+  letter-spacing: 2px;
+}
+.forms h3 {
+  text-transform: uppercase;
+  color: #0061a8;
+}

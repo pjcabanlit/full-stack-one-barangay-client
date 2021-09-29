@@ -1,0 +1,10 @@
+.officials_tbl {
+  justify-content: center;
+  padding: 15px;
+  border: 1px solid black;
+}
+
+.officials_tbl th td {
+  border: 1px solid black;
+  padding: 5px;
+}

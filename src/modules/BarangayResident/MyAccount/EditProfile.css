@@ -1,0 +1,218 @@
+.EditProfile_container {
+  background: #e6edf2;
+  height: 100%;
+  margin-top: 0;
+}
+
+.wrapper {
+  max-width: 1000px;
+  width: 100%;
+  background: #fefeff;
+  margin: auto auto;
+  padding: 30px;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.125);
+}
+
+.wrapper .titles {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: #3f3697;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.wrapper .forms {
+  width: 100%;
+}
+
+.wrapper .forms .input_fields {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.wrapper .forms .input_fields label {
+  width: 200px;
+  color: black;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.wrapper .forms .input_fields .inputs,
+.wrapper .forms .input_fields .textarea {
+  width: 100%;
+  outline: none;
+  border: 1px solid #d5dbd9;
+  font-size: 15px;
+  padding: 8px 10px;
+  transition: all 0.3s ease;
+}
+
+.wrapper .forms .input_fields .textarea {
+  resize: none;
+  height: 125px;
+}
+
+.wrapper .forms .input_fields .custom_select {
+  position: relative;
+  width: 100%;
+  height: 37px;
+}
+
+.wrapper .forms .input_fields .custom_select select {
+  -webkit-appearance: none;
+  appearance: none;
+  border: 1px solid #d5dbd9;
+  width: 100%;
+  height: 100%;
+  padding: 8px 10px;
+  border-radius: 3px;
+  outline: none;
+}
+
+.wrapper .forms .input_fields .custom_select:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 8px solid;
+  border-color: #d5dbd9 transparent transparent transparent;
+  pointer-events: none;
+}
+
+.wrapper .forms .input_fields .inputs:focus,
+.wrapper .forms .input_fields .textarea:focus,
+.wrapper .forms .input_fields select:focus {
+  border: 1px solid #3f3697;
+}
+
+.wrapper .forms .input_fields p {
+  font-size: 14px;
+  color: #757575;
+}
+
+.wrapper .forms .input_fields .check {
+  width: 15px;
+  height: 15px;
+  position: relative;
+  display: block;
+  cursor: pointer;
+}
+/*
+.wrapper .forms .input_fields .check input[type="checkbox"] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.wrapper .forms .input_fields .check .checkmark {
+  width: 15px;
+  height: 15px;
+  border: 1 px solid;
+  display: block;
+  position: relative;
+}
+
+.wrapper .forms .input_fields .check .checkmark:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 5px;
+  height: 2px;
+  border: 2px solid;
+  border-color: transparent #fff #fff;
+  transform: rotate(-45deg);
+  display: none;
+}
+
+.wrapper
+  .forms
+  .input_fields
+  .check
+  input[type="checkbox"]:checked
+  ~ .checkmark {
+  background: #3f3697;
+}
+
+.wrapper
+  .forms
+  .input_fields
+  .check
+  input[type="checkbox"]:checked
+  ~ .checkmark:before {
+  display: block;
+} */
+
+.wrapper .forms .input_fields .btn {
+  width: 25%;
+  padding: 8px 10px;
+  font-size: 15px;
+  border: 0;
+  background: #0061a8;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 3px;
+  outline: none;
+}
+
+#submitBTN {
+  margin-top: 25px;
+}
+
+.wrapper .forms .input_fields:last-child {
+  margin-bottom: 0;
+}
+.wrapper .forms .input_fields .btn:hover {
+  background: #3f3697;
+}
+
+.btn {
+  width: 25%;
+  padding: 8px 10px;
+  font-size: 15px;
+  border: 0;
+  background: #0061a8;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 3px;
+  outline: none;
+  margin-bottom: 10px;
+}
+.btn:hover {
+  background: #3f3697;
+}
+
+@media (max-width: 420px) {
+  .wrapper .forms .input_fields {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .wrapper .forms .input_fields label {
+    margin-bottom: 5px;
+  }
+  .wrapper .forms .input_fields .terms {
+    flex-direction: row;
+  }
+}
+
+.container_fluid
+  .fieldset_container
+  .personal_info_col
+  .form-group
+  .password-icon {
+  top: 20px;
+  right: 5px;
+  position: absolute;
+}
+
+.MyAccount_container {
+  background: #e9e7e2;
+}
+
+.forPadding {
+  padding: 15px;
+}

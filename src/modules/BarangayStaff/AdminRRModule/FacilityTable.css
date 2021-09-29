@@ -1,0 +1,12 @@
+.facility_checkBtn {
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.facility_checkBtn:hover {
+  background-color: darkgreen;
+}

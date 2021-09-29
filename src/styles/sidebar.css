@@ -1,0 +1,60 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+.sidebar-topnav {
+  background-image: linear-gradient(to bottom right, #0061a8, #3f3697);
+  height: 100px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.admin_header_title {
+  height: 80px;
+}
+
+.sidebar-topnav p {
+  color: #fff;
+}
+
+.sidenav {
+  background: #fff;
+  width: 300px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 100px;
+  transition: 350ms;
+  font-family: "Montserrat", sans-serif;
+}
+
+.sidenav-wrap {
+  width: 100%;
+}
+
+.topnav-title p {
+  padding-top: 10px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.admin-logo-1 {
+  height: 90px;
+  position: fixed;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.admin-logo-2 {
+  height: 90px;
+  margin-left: 1425px;
+  justify-content: right;
+  line-height: 24px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  margin-top: 5px;
+  margin-right: 10px;
+}

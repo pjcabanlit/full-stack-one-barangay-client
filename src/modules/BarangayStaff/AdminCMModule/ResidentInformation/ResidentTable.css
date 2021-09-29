@@ -1,0 +1,50 @@
+.members_tbl_admin {
+  padding: 5px;
+  border-collapse: collapse;
+}
+
+.members_tbl_admin th {
+  background: #0061a8;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 10px;
+}
+
+.members_tbl_admin td {
+  text-align: center;
+  font-weight: 600;
+}
+
+.archive_button {
+  border: none;
+  background: #0061a8;
+  color: #fff;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 3px;
+  font-size: 15px;
+}
+
+.archive_button:hover {
+  background: dodgerblue;
+}
+
+.view_edit,
+.archive_button {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.view_edit {
+  border: none;
+  color: white;
+  background: green;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 3px;
+  font-size: 15px;
+}
+
+.view_edit:hover {
+  background: darkgreen;
+}
